@@ -1,0 +1,88 @@
+.bg{
+	height: 500px;
+	width: 900px;
+	background-color: #ccc;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	background-image: url(../images/bg.jpg);
+	background-size: 100%;
+}
+.weapon{
+	position: absolute;
+    left: 0;
+    bottom: 25px;
+    width: 150px;
+    height: 50px;
+	z-index: 10;
+	background-image: url(../images/gunn.png);
+}
+.weapon-bg{
+    position: absolute;
+    left: -25px;
+    bottom: 0px;
+    width: 120px;
+    height: 55px;
+    background-image: url(../images/gunn-bg.png);
+    background-size: 100%;
+    z-index: 11;
+}
+.ball{
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	z-index: 9;
+	left: -20px;
+	bottom:-20px;
+	background-image: url(../images/ball.png);
+}
+.enemy1, .enemy2, .enemy3, .enemy4, .enemy5{
+	width: 100px;
+	height: 35px;
+	position: absolute;
+	z-index: 12;
+	background-image: url(../images/enemy1.gif);
+	background-size: 100% 100%;
+}
+.enemy2{
+	background-image: url(../images/enemy2.png);
+}
+.enemy3{
+	background-image: url(../images/enemy3.png);
+}
+.enemy4{
+	background-image: url(../images/enemy4.png);
+}
+.enemy5{
+	background-image: url(../images/enemy5.png);
+}
+.boom{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	z-index: 13;
+	background-image: url(../images/boom.jpg);
+	background-size: 100% 100%;
+}
+.end-game{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 100;
+    padding: 150px 15px 15px;
+    display: none;
+}
+.stat-con{
+	margin: 0 auto;
+	width: 250px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+.end-game .title{
+	font-size: 36px;
+	margin-bottom: 15px;
+}
